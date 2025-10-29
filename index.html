@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahara Solar Energy - L'énergie solaire du futur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="sun"></div>
+    <h1>Sahara Solar Energy</h1>
+    <p>Ensemble, faisons briller le Maroc avec une énergie propre et durable ☀️</p>
+  </header>
+
+  <nav>
+    <a href="#projet">Notre mission</a>
+    <a href="#ecologie">Pourquoi le solaire</a>
+    <a href="#galerie">Nos installations</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <div class="section" id="projet">
+      <h2>Notre mission</h2>
+      <p>
+        Sahara Solar Energy est une entreprise marocaine basée à Dakhla, 
+        spécialisée dans l’installation et la maintenance de systèmes photovoltaïques.  
+        Nous accompagnons particuliers, entreprises et collectivités pour transformer le soleil du Sahara 
+        en énergie propre et rentable.
+      </p>
+      <button class="button" onclick="alert('Merci pour votre confiance 🌞 ! Un conseiller vous contactera sous peu.')">
+        Demander une étude gratuite
+      </button>
+    </div>
+
+    <div class="section" id="ecologie">
+      <h2>Pourquoi choisir le solaire ?</h2>
+      <p>
+        🌿 Réduisez vos factures d’électricité<br>
+        ☀️ Profitez d’une ressource naturelle illimitée<br>
+        🇲🇦 Soutenez la transition énergétique du Maroc<br>
+        🔧 Bénéficiez d’une maintenance locale et rapide<br>
+        💡 Investissez dans l’avenir, pas dans la pollution.
+      </p>
+    </div>
+
+    <div class="section" id="galerie">
+      <h2>Nos installations</h2>
+      <p>Découvrez quelques exemples de nos réalisations :</p>
+      <div class="gallery">
+        <img src="https://c8.alamy.com/compfr/wr9tgg/panneau-solaire-a-ksar-el-khorbat-oujdid-maroc-wr9tgg.jpg" alt="Panneaux solaires Ksar El Khorbat">
+        <img src="https://var.maclem.fr/public/img/big/AdobeStock295764592bisjpg_5e144ad65e737.jpg" alt="Panneaux photovoltaïques">
+        <img src="https://sunenergy.ma/wp-content/uploads/2024/07/panneaux-solaires-maroc-guide-840x620-840x620.jpg" alt="Ferme solaire au Maroc">
+      </div>
+    </div>
+
+    <div class="section" id="contact">
+      <h2>Contactez-nous</h2>
+      <p>📍 Dakhla, Sahara marocain<br>
+         📞 +212 6 00 00 00 00<br>
+         ✉️ contact@saharasolar.ma</p>
+
+      <form onsubmit="envoyerMessage(event)">
+        <input type="text" id="nom" placeholder="Votre nom" required>
+        <input type="email" id="email" placeholder="Votre email" required>
+        <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
+        <button type="submit" class="button">Envoyer le message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sahara Solar Energy – Ensemble, éclairons le futur</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
